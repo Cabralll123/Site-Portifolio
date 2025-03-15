@@ -1,0 +1,25 @@
+@import url(header.css);
+@import url(main.css);
+@import url(sobre.css);
+@import url(projects.css);
+@import url(footer.css);
+@import url(responsividade.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth; /* serve para deixar animação da navegação mais suave  */
+}
+
+
+
+

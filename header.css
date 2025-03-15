@@ -1,0 +1,33 @@
+.nav{
+    background-color: rgb(20, 20, 20);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top:0;
+    z-index: 9;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 24px;
+    transition:0.7s;
+}
+.nav-list a{
+    text-decoration: none;
+    color: #afafaf;
+    padding: 20px;
+    
+}
+
+.nav-list:hover{
+     transform: scale(1.1) ;
+}
+
+.nav-list a:hover{
+    color: #FFFFFF;
+
+}
